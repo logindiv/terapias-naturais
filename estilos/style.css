@@ -1,0 +1,105 @@
+@charset "UTF-8";
+
+
+
+@media screen and (max-width:1025px){
+    body{background-image: url(../imagens/fundop.jpg);}
+    }
+
+@media screen and (max-width:1200px){
+    body{
+        background-image: url(../imagens/fundo1.jpg)}}
+@media screen and (min-width:1200px) {
+    body {
+        background-image: url(../imagens/fundo1.jpg);}
+        
+}
+
+body{
+    background-color: rgb(33, 33, 99);
+}
+
+header{
+    text-align: center;
+    color: white;
+}
+header>h1{
+    font-size: 3em;
+}
+section>div#img1>a>img{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section>div#img2>a>img{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section>div#img3>a>img{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section>div#img4>a>img{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+section>div#img5>a>img{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+section>div#img6>a>img{
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;}
+
+
+
+
+footer{
+    text-align: center;
+}
+footer>div#footer{
+    background-color: rgb(119, 202, 250);
+    border-radius: 20px;
+    margin: auto;
+}
+footer>div#footer>p>strong>a{
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: black;
+}
