@@ -1,82 +1,18 @@
 @charset "UTF-8";
 
-header{
-    text-align: center;
-    color: white;
-}
 body{
-    background-color: rgb(55, 55, 240);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-section>div#img1{
-    width: 500px ;
-    height: 500px;
-    background-color: white;
-    margin: auto;
-    margin-top: 50px ;
-    margin-bottom: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.541);
-}
-section>div#img2{
-    width: 500px ;
-    height: 500px;
-    background-color: white;
-    margin: auto;
-    margin-top: 50px ;
-    margin-bottom: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.541);
-}
-section>div#img3{
-    width: 500px ;
-    height: 500px;
-    background-color: white;
-    margin: auto;
-    margin-top: 50px ;
-    margin-bottom: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.541);
-}
-section>div#img4{
-    width: 500px ;
-    height: 500px;
-    background-color: white;
-    margin: auto;
-    margin-top: 50px ;
-    margin-bottom: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.541);
-}
-section>div#img5{
-    width: 500px ;
-    height: 500px;
-    background-color: white;
-    margin: auto;
-    margin-top: 50px ;
-    margin-bottom: 50px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    border-radius: 20px;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.541);
-}
-footer{
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+body>header{
     text-align: center;
+    color : rgb(255, 255, 255);
 }
-footer>p{
-    font-weight: 600;
-    color: white;
-}
-footer>p>strong>a{
-    font-weight: bolder;
-    font-size: 1.5em;
-    color: white;
+section>p>img{
+    background-color: white;
+    background-size: 400px;
+    background-position: center;
+    text-align: center;
+    display:block;
+    margin: auto;
+
 }

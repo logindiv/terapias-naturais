@@ -1,22 +1,27 @@
 @charset "UTF-8";
-
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
 
 @media screen and (max-width:1025px){
-    body{background-image: url(../imagens/fundop.jpg);}
+    body{background-color: black;}
     }
 
 @media screen and (max-width:1200px){
     body{
-        background-image: url(../imagens/fundo1.jpg)}}
+        background-color: black;}}
 @media screen and (min-width:1200px) {
     body {
-        background-image: url(../imagens/fundo1.jpg);}
+        background-color: black;}
         
 }
 
 body{
-    background-color: rgb(33, 33, 99);
+    background-color: black;
+    color:white
+    
 }
 
 header{
@@ -26,80 +31,47 @@ header{
 header>h1{
     font-size: 3em;
 }
-section>div#img1>a>img{
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
+section{
     display: block;
     margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-section>div#img2>a>img{
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
-    display: block;
-    margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-section>div#img3>a>img{
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
-    display: block;
-    margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-section>div#img4>a>img{
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
-    display: block;
-    margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-section>div#img5>a>img{
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
-    display: block;
-    margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    width: 461px;
+    height: 400px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
 
-section>div#img6>a>img{
-    border-radius: 20px;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.514);
+main>p{color: white;
+  font-size: 2em;
+  margin-top: 0px;
+  margin-left: 10px;
+  padding-top: 0px;
+}
+section#img2{
     display: block;
     margin: auto;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 10px;
-    margin-bottom: 10px;}
-
-
-
-
-footer{
-    text-align: center;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
 }
-footer>div#footer{
-    background-color: rgb(119, 202, 250);
-    border-radius: 20px;
+footer>p{
+    color: white;
+    font-size: 2em;
+    
+}
+a{
+    text-decoration: none;
+}
+button{
+    border-radius: 10px;
+    font-size: 2em;
+    background-color: rgb(4, 201, 14);
+    color: white;
+    display: block;
     margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 250px;
+    height: 100px;
 }
-footer>div#footer>p>strong>a{
-    font-weight: bolder;
-    font-size: 1.5em;
-    color: black;
-}
+
